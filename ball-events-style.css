@@ -1,0 +1,174 @@
+
+			*{
+				background-color:	#DBC477;
+				font-family: 		'Josefin Sans', sans-serif;
+				color:			 	#393E52;
+			}
+			
+			p{
+				background:			rgba(57,62,82,0);
+				color:				white;
+				text-align:			left;
+				font-size:			1.5vw;
+			}
+			
+			h1{
+				background:			rgba(57,62,82,0.75);
+				color:				white;
+				text-align:			center;
+				
+			}
+			
+			h2{
+				background:			rgba(57,62,82,0.75);
+				color:				white;
+				text-align:			left;
+				
+				
+			}
+			
+			h3{
+				background:			rgba(57,62,82,0.75);
+				color:				white;
+				text-align:			left;
+				
+			}
+			
+			td{
+				background:			rgba(57,62,82,1);	
+			}
+			
+			table{
+				border-collapse:	collapse;
+				border-spacing:		0;
+				width:				100%;
+				background:			rgba(57,62,82,0.75);
+			}
+			
+			#menu-conatiner{
+				margin:				10 auto;
+				width:				100%;
+				text-align:			center;
+				border-top:			2px solid #393E52;
+				border-bottom:		2px solid #393E52;
+			}
+		
+			#menu-bar{
+				margin:				0;
+				padding: 			0;
+				display: 			inline-block;
+				list-style-type: 	none;
+			}
+		
+			#menu-bar li{
+				float:				left;
+				text-decoration:	none;
+				padding:			14px 16px;
+				text-align:			center;
+			}
+			
+			#menu-bar li a{
+				display:			block;
+				color:				#393E52;
+				text-align:			center;
+				padding:			14px 16px;
+				margin:				auto;
+				text-decoration:	none;
+				font-size:			3vw;
+			}
+			
+			#menu-bar li a:hover{
+				background-color:	#393E52;
+				color:				white;
+				cursor:				pointer;
+			}
+			
+			#menu-bar li a.active{
+				background-color:	#393E52;
+				color:				white;
+			}
+			
+			#menu-bar li a:hover:not(.active){
+				color:				#393E52;
+				background-color:	#DBC477;
+			}
+			
+			#title{
+				font-weight:		bold;
+				font-size:			5vw;
+				text-align:			center;
+				width:				100%;
+				margin-bottom:		25px;
+				margin-top:			25px;
+			}
+			
+			#pic1{
+				width:				100%;
+			}
+			
+			#picture1{
+				width: 				100%;
+				float:				left;
+				position:			relative;
+			}
+			
+			#logo-text{
+				position:			absolute;
+				width:				50vw;
+				background:			rgba(57,62,82,0.75);
+				float:				right;
+				color:				white;
+				padding: 			30px;
+				font-size:			2vw;
+				top:				42vh;
+				right:				5vw;
+				border-radius:		5%;
+				overflow:			auto;
+			}
+			
+			#resetButton{
+				width:				40px;
+			}
+			
+			#image-container{
+				text-align: 		center;
+				width:				100%;
+			}
+			
+			#contact-form{
+				width:				50%;
+				height:				100%;
+				background:			#DBC477;
+				padding:			25px;
+				border-radius:		5%;
+				border:				2px solid #393E52;
+				overflow:			scroll;
+				overflow-y:			hidden;
+				overflow-x:			hidden;
+				background:			rgba(57,62,82,1);
+				margin:				0 auto;
+				margin-top:			40px;
+			}
+			
+			#contact-info{
+				width:				50%;
+				height:				100%;
+				background:			#DBC477;
+				padding:			25px;
+				border-radius:		5%;
+				border:				2px solid #393E52;
+				overflow:			scroll;
+				overflow-y:			hidden;
+				overflow-x:			hidden;
+				background:			rgba(57,62,82,1);
+				margin:				0 auto;
+				margin-top:			40px;
+				
+			}
+			
+			.main-body{
+				text-align:			center;
+				width:				100%;
+				background:			rgba(57,62,82,0.75)
+			}
+			

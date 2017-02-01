@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="ball-events-style.css">
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+
+	<title>Have a Ball Events</title>
+
+	<head>
+		<div id="title">Have a Ball Events</div>
+	</head>
+	<body>
+		<div id="menu-conatiner">
+				<ul id="menu-bar">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+		</div>
+		<div class="main-body">
+		<div>
+			<div id="contact-form">
+				<h1>Contact Us Form</h1>
+				<br>
+				<h3>All fields marked (*) are required</h3>
+				<form method="post" name="emailform" action="form-to-email.php">
+					<table>
+						<tr>
+							<td><h3>Name  *:</h3></td><td><input id="nameInput" type="text" size = "50" name="name" required autofocus></td>
+						</tr>
+						<tr>
+							<td><h3>E-mail  *:</h3></td><td><input id="emailInput" type="text" size = "50" name="email" required><br></td>
+						</tr>
+						<tr>
+							<td><h3>Event Date   :</h3></td><td><input id="eventDateInput" type="date" size = "50" name="edate"><br></td>
+						</tr>
+						<tr>
+							<td><h3>Occasion  *:</h3></td><td><input id="occasionInput" type="text" size = "50" name="occasion" required><br></td>
+						</tr>
+						<tr>
+							<td><h3>Message  *:</h3></td><td><textarea id="textAreaInput" name="message" rows="18" cols="50" required></textarea><br></td>
+						</tr>
+						<tr>
+							<td></td><td><input id="submitButton" width="40px" type="submit" value="Submit" onclick="subAlert()"><input id="resetButton" width="40px" type="reset" value="Reset"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div id="contact-info">
+				<h1>Contact Info</h1>
+				<table>
+					<tr>
+						<td><h3>Lindsey Ball: </h3></td>
+						<td><h3>lindsey@ball-events.com</h3></td>
+					</tr>
+					<tr>	
+						<td><h3>Have a Ball on:</h3></td>
+						<td><a class="formlink" href="https://www.facebook.com/Have-a-Ball-Events-579303618935870"><h3>Facebook</h3></a><a class="formlink" href="#twitter"><h3>Twitter</h3></a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		</div>
+	</body>	
+	
+	<script>
+		function subAlert(){
+			if(document.getElementById('nameInput').value == "")
+			{
+				alert("Please enter your name.");
+			}
+			if(document.getElementById('emailInput').value == ""){
+				alert("Please enter your e-mail address.");
+			}
+			if(document.getElementById('occasionInput').value == ""){
+				alert("Please enter your occasion.");
+			}
+			if(document.getElementById('textAreaInput').value == ""){
+				alert("Please enter a message.")
+			}else{
+				alert("Thank you! Your message has been submitted.")
+			}
+		}
+	</script>
+</html>
